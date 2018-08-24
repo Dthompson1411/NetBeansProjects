@@ -26,7 +26,14 @@ public class FileManipulation
       */
      public static void main(String[] args)
      {
-          // TODO code application logic here
+          //Call the Exectue function in the Execute Class
+          //The controlling class
+         new Execute().Execute();
+     }
+     
+     public void DisplayHeader()
+     {
+          System.out.printf("Entering the File Into the system");
      }
      
 }
